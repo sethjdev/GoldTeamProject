@@ -5,8 +5,8 @@ using System.Web;
 
 namespace GoldTeamProject.Models
 {
-    public class message
+    public class Message
     {
-
+        
     }
 }
