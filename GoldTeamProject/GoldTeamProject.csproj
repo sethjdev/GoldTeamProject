@@ -239,6 +239,14 @@
     <Compile Include="Migrations\201504271937576_userData.Designer.cs">
       <DependentUpon>201504271937576_userData.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201504272033205_seedproduct.cs" />
+    <Compile Include="Migrations\201504272033205_seedproduct.Designer.cs">
+      <DependentUpon>201504272033205_seedproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201504272035170_nouserforeign.cs" />
+    <Compile Include="Migrations\201504272035170_nouserforeign.Designer.cs">
+      <DependentUpon>201504272035170_nouserforeign.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -326,6 +334,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201504271937576_userData.resx">
       <DependentUpon>201504271937576_userData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201504272033205_seedproduct.resx">
+      <DependentUpon>201504272033205_seedproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201504272035170_nouserforeign.resx">
+      <DependentUpon>201504272035170_nouserforeign.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
