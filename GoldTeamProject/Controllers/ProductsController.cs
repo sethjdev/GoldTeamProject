@@ -18,9 +18,19 @@ namespace GoldTeamProject.Controllers
         private GoldTeamProjectContext db = new GoldTeamProjectContext();
 
         // GET: api/Products
-        public IQueryable<Product> GetProducts()
+        public IQueryable<ProductDTO> GetProducts()
         {
-            return db.Products;
+            var products = from p in db.Products
+                        select new ProductDTO()
+                        {
+                            Id = p.Id,
+                            Title = p.Title,
+                            Price = p.Price,
+                            Photo = p.Photo,
+
+                        };
+
+            return products;
         }
 
         // GET: api/Products/5
