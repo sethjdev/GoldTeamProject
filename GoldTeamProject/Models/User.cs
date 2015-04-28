@@ -14,5 +14,6 @@ namespace GoldTeamProject.Models
         public string EmailAddress { get; set; }
         public int ZipCode { get; set; }
 
+
     }
 }

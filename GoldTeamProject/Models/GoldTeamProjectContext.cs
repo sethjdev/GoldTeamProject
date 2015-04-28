@@ -22,6 +22,8 @@ namespace GoldTeamProject.Models
         public System.Data.Entity.DbSet<GoldTeamProject.Models.Product> Products { get; set; }
 
         public System.Data.Entity.DbSet<GoldTeamProject.Models.User> Users { get; set; }
+
+        public System.Data.Entity.DbSet<GoldTeamProject.Models.Message> Messages { get; set; }
     
     }
 }
