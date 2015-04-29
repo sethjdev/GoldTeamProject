@@ -13,6 +13,7 @@ using GoldTeamProject.Models;
 
 namespace GoldTeamProject.Controllers
 {
+    [Authorize]
     public class ProductsController : ApiController
     {
         private GoldTeamProjectContext db = new GoldTeamProjectContext();
@@ -26,8 +27,7 @@ namespace GoldTeamProject.Controllers
                             Id = p.Id,
                             Title = p.Title,
                             Price = p.Price,
-                            Photo = p.Photo,
-
+                            Photo = p.Photo
                         };
 
             return products;

@@ -248,9 +248,9 @@
     <Compile Include="Migrations\201504272035170_nouserforeign.Designer.cs">
       <DependentUpon>201504272035170_nouserforeign.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201504281902401_Message Migration.cs" />
-    <Compile Include="Migrations\201504281902401_Message Migration.Designer.cs">
-      <DependentUpon>201504281902401_Message Migration.cs</DependentUpon>
+    <Compile Include="Migrations\201504281908375_messagestable.cs" />
+    <Compile Include="Migrations\201504281908375_messagestable.Designer.cs">
+      <DependentUpon>201504281908375_messagestable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
@@ -348,8 +348,8 @@
     <EmbeddedResource Include="Migrations\201504272035170_nouserforeign.resx">
       <DependentUpon>201504272035170_nouserforeign.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201504281902401_Message Migration.resx">
-      <DependentUpon>201504281902401_Message Migration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201504281908375_messagestable.resx">
+      <DependentUpon>201504281908375_messagestable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

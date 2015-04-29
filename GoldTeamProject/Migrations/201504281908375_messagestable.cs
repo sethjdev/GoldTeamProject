@@ -3,7 +3,7 @@ namespace GoldTeamProject.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class MessageMigration : DbMigration
+    public partial class messagestable : DbMigration
     {
         public override void Up()
         {
